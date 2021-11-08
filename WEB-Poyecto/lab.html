@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio a gestion de laboratorios </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="nav-main">
+            <img class="container-img" src="images/FacciLOGO.png" img/>
+            <h1>Gestión de laboratios</h1>
+            <ul class="nav-menu">
+                <select name="options" id="options">
+                    <option value="a">Separar laboratios</option>
+                    <option value="b">Entregar Laboratorios </option>
+                    <option value="c">Observaciones de laboratios</option>
+                </select>
+
+
+                <li><a class="boton"href="index.html">Cerrar sesión</a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+    </div>
+
+    <div>
+        <br>
+        <form action="" method="get" class="separa">
+            <h2><strong>Separar laboratorio</strong></h2>
+            <div>
+                <label class="labl">
+                    Tiempo:</label> 
+                    <input class="inpu"type="time" name="time_control" id="tiempo" />
+            </div>
+            <div>
+                <label class="labl">
+                    Fecha y hora:</label> <input class="inpu" type="datetime" name="datetime_control" id="fecha"/>
+            </div>            
+                
+            <div>
+                <label class="labl">
+                    Mes:</label> <input class="inpu"type="month" name="month_control" id="mes"/>
+            </div>           
+                
+            <div>
+                <label class="labl">
+                    Semana:  </label><input class="inpu" type="week" name="week_control" id="semana"/>
+            </div>
+            
+            <input class="button" type="submit" id="btn2" value="Separar">  
+        </form>
+    </div>
+
+    <footer class="footer">
+        <nav class="nav-footer">
+            <h3>Grupo 1 (Anchundia-Cedeño-Pinargote-Reyes) Copyright ©</h3>
+        </nav>
+    </footer>
+    <script src="scripts/separa.js"></script>
+</body>
+</html>

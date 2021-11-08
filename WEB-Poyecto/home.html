@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio a gestion de laboratorios </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="nav-main">
+            <img class="container-img" src="images/FacciLOGO.png" img/>
+            <h1>Gestión de laboratios</h1>
+            <ul class="nav-menu">
+                <select name="options" id="options">
+                    <option value="a">Separar laboratios</option>
+                    <option value="b">Entregar Laboratorios </option>
+                    <option value="c">Observaciones de laboratios</option>
+                </select>
+
+
+                <li><a class="boton"href="index.html">Cerrar sesión</a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+    </div>
+
+    <div>
+        <form action="" method="get" class="date-login">
+            <h2><strong>Datos personales</strong></h2>
+            <label>Nombre:</label> <input class="inpu" type="text" name="name_control" autofocus required id="usuario"/>
+            <label>Correo: </label><input class="inpu" type="email" name="email_control" required id="correo"/>
+            <label>Teléfono: </label><input class="inpu" type="tel" name="tel_control" id="telf"/>
+            <label>Direccion: </label><input class="inpu" type="text" name="address" autofocus required  id="direccion"/>
+            <input type="button" name="" id="actualiza" value="Actualizar datos">
+        </form>
+    </div>
+
+    <footer class="footer">
+        <nav class="nav-footer">
+            <h3>Grupo 1 (Anchundia-Cedeño-Pinargote-Reyes) Copyright ©</h3>
+        </nav>
+    </footer>
+    <script src="scripts/actualiza.js"></script>
+</body>
+</html>
